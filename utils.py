@@ -5,9 +5,7 @@ import re
 import tempfile
 import torch
 import logging
-import imageio_ffmpeg as ffmpeg
 
-os.environ["PATH"] += os.pathsep + ffmpeg.get_ffmpeg_exe()
 os.environ['CUDA_LAUNCH_BLOCKING'] = "1"
 logging.basicConfig(level=logging.INFO)
 
