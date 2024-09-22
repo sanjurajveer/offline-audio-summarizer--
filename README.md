@@ -1,6 +1,6 @@
 # PodQuik-audio-summarizer
  Podcast (Audio) Summarizer App. <br>
- podquik.streamlit.app/
+[PodQuik](https://podquik.streamlit.app/)
  
  Uses OpenAI's Whisper model to transcribe audio files and Hugging Face's Transformers to summarize the transcription.
 
