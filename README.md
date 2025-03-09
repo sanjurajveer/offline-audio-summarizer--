@@ -1,6 +1,5 @@
-# PodQuik-audio-summarizer
- Podcast (Audio) Summarizer App. <br>
-[PodQuik](https://podquik.streamlit.app/)
+# Offline Audio Summarizer
+[Offline Audio summarizer]([https://podquik.streamlit.app/](https://legendary-space-fortnight-vgr4vv5j6j5hwx46-8501.app.github.dev/))
  
  Uses OpenAI's Whisper model to transcribe audio files and Hugging Face's Transformers to summarize the transcription.
 
