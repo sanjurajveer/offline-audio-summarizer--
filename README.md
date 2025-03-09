@@ -16,9 +16,9 @@
 **PyTorch:** As a backend for running machine learning models.
 
 ## 🔍 Usage <br>
-<img src="/images/home.png" width="650" height="500"><br>
+<img src="/home.png" width="650" height="500"><br>
 - Upload an audio file (WAV/MP3 format). <br>
 - Wait for the transcription process to complete. <br><br>
-<img src="/images/transcription.png" width="650" height="500"><br>
+<img src="/transcript.png" width="650" height="500"><br>
 - Click the "Summarize Transcription" button to get a summary of the transcript.
-<img src="/images/summary.png" width="650" height="500">
+<img src="/summary.png" width="650" height="500">
