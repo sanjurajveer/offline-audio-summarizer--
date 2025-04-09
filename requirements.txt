@@ -1,4 +1,22 @@
-streamlit
-git+https://github.com/openai/whisper.git
-transformers
-torch
+Mac Prerequisites
+Before running the application, install the necessary dependencies by following these steps:
+1. Install Homebrew and Update System Packages
+brew update
+2. Install FFmpeg for Audio Processing
+brew install ffmpeg
+3. Install Required Python Packages
+pip install openai-whisper transformers torch streamlit ffmpeg-python
+/Applications/Python\ 3.12/Install\ Certificates.command
+4. Download and Load Whisper Model
+python3 -c "import whisper; whisper.load_model('base')"
+5. Install TensorFlow & Transformers (for improved model compatibility)
+pip install tf-keras
+pip uninstall keras tensorflow transformers
+pip install tensorflow transformers
+6. Download and Load a T5 Summarization Model
+python3 -c "from transformers import pipeline; pipeline('summarization', model='t5-small')"
+7. Install Ollama for Advanced Summarization
+brew install --cask ollama
+ollama --version
+ollama pull llama3
+ollama pull mistral
